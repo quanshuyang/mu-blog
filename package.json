@@ -6,11 +6,18 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
+<<<<<<< HEAD
     "server": "hexo server",
     "netlify": "npm run clean && npm run build"
   },
   "hexo": {
     "version": ""
+=======
+    "server": "hexo server"
+  },
+  "hexo": {
+    "version": "7.3.0"
+>>>>>>> 4d2b5911d302f7a2bd1f9c58abd4be22cbb820b1
   },
   "dependencies": {
     "hexo": "^7.3.0",
@@ -22,6 +29,21 @@
     "hexo-renderer-marked": "^7.0.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
+<<<<<<< HEAD
     "hexo-theme-landscape": "^1.0.0"
   }
+=======
+    "hexo-theme-fluid": "^1.9.8",
+    "hexo-theme-landscape": "^1.0.0"
+  }
+{
+“scripts":{
+	"build":"hexo generate",
+	"clean":"hexo clean",
+	"deploy":"hexo deploy",
+	"server":"hexo server",
+	"netlify":"npm run clean && npm run build"
+}
+}
+>>>>>>> 4d2b5911d302f7a2bd1f9c58abd4be22cbb820b1
 }
